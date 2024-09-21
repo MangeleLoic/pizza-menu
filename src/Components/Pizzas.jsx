@@ -22,7 +22,7 @@ function Pizza(props) {
                   <h3>{props.pizzaObj.name}</h3>
                 </Card.Title>
                 <Card.Text>{props.pizzaObj.ingredients}</Card.Text>
-                <Button variant="primary">
+                <Button variant="primary" className="btn">
                   {props.pizzaObj.soldOut ? " SOLD OUT" : props.pizzaObj.price}{" "}
                   $
                 </Button>

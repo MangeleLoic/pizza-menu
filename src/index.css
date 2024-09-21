@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #e5ddc3 !important;
 }
 
 code {
@@ -189,7 +190,7 @@ body {
 }
 
 .btn:hover {
-  background-color: #e9bb24;
+  background-color: #17f11e !important;
 }
 
 /*
